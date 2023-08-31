@@ -1,6 +1,6 @@
 .curso{
 display: flex;
-justify-content: center; 
+justify-content: center ; 
 width: 200px;
 border-radius: 10px;
 padding: 10px;
@@ -8,9 +8,8 @@ margin: 5px 0px;
 cursor: pointer;
 
 }
-.curso:hover {
-    border-color: #f00;
-}
+
+
 .c1{
     background-color: #ccc;
     color: #444;
@@ -19,8 +18,14 @@ cursor: pointer;
     background-color: #444;
     color: #ccc;
 }
-.destaque{
-    background-color: #444 !important;
-    color: #ccc !important;
-    border-color: #f00 !important;
+
+.curso:hover{
+    border-color:#800;
 }
+.destaque{
+    background-color: #444 ;
+    color: #ccc;
+    border-color: #f00 ;
+}
+
+
